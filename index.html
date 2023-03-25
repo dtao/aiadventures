@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>AI Adventures</title>
+
+    <!-- Load the markdown.js library from a CDN. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown.js/0.5.0/markdown.min.js"></script>
+
+    <!-- Make it beautiful. -->
+    <link rel="stylesheet" href="index.css" />
+
+    <!--
+        Load README.md and render the Markdown as HTML.
+
+        Benefits of this approach:
+
+        1. README.md is still the appropriate entry point for the source code.
+        2. This file can serve as the entry point for readers.
+        3. There is no duplication between the two files.
+        4. There doesn't need to be a build step.
+    -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let xhr = new XMLHttpRequest();
+            xhr.addEventListener('load', () => {
+                let main = document.body.querySelector('main');
+                main.innerHTML = markdown.toHTML(xhr.responseText);
+            });
+            xhr.open('GET', 'README.md');
+            xhr.send();
+        });
+    </script>
+</head>
+
+<body>
+    <main></main>
+    <footer>
+        <ul>
+            <li>&copy; 2023 Dan Tao</li>
+            <li><a href="https://twitter.com/dan_tao">Twitter</a></li>
+            <li><a href="https://philosopherdeveloper.com">Other writing</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

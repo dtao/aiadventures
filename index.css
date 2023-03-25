@@ -1,0 +1,28 @@
+body {
+    max-width: 960px;
+    margin: auto;
+}
+
+main {
+    font-size: 24pt;
+}
+
+footer {
+    font-size: 12pt;
+    border-top: 1px solid;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    border-left: 1px solid;
+    padding: 0 0.5em;
+}
+
+footer ul li:first-child {
+    border-left: none;
+    padding-left: 0;
+}
