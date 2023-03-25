@@ -7,6 +7,10 @@ main {
     font-size: 24pt;
 }
 
+main ul li:has(input[checked]) {
+    text-decoration: line-through;
+}
+
 footer {
     font-size: 12pt;
     border-top: 1px solid;

@@ -10,3 +10,12 @@ comes to how AI is being both utilized and advanced in the industry.
 The method I intend to use is some flavor of the Feynmann Technique: along the
 way I will do my best to explain what I am learning to a general audience, and
 use my efforts to explain as a mechanism to drive my own learning.
+
+Reading list
+------------
+
+I will keep track of books, articles, interviews, courses, and other content I
+want to consume to learn about AI here.
+
+- [ ] Kara Swisher interview with Sam Altman
+- [ ] Lex Fridman interview with Sam Altman
