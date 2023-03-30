@@ -19,3 +19,7 @@ want to consume to learn about AI here.
 
 - [x] Kara Swisher interview with Sam Altman
 - [x] Lex Fridman interview with Sam Altman
+- [ ] Lex Fridman interview with Eliezer Yudkowsky
+- [ ] Article: ["AGI Ruin: A List of Lethalities"][1]
+
+[1]: https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
