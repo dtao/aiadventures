@@ -17,5 +17,5 @@ Reading list
 I will keep track of books, articles, interviews, courses, and other content I
 want to consume to learn about AI here.
 
-- [ ] Kara Swisher interview with Sam Altman
-- [ ] Lex Fridman interview with Sam Altman
+- [x] Kara Swisher interview with Sam Altman
+- [x] Lex Fridman interview with Sam Altman
