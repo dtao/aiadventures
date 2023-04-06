@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>AI Adventures</title>
+
+    <!-- Make it beautiful. -->
+    <link rel="stylesheet" href="/index.css" />
+
+</head>
+
+<body>
+    <main>
+        {{ readme }}
+
+        <h2>Summaries</h2>
+        <ul>
+            {% for summary in summaries %}
+            <li><a href="/summaries/{{ summary.slug }}.html">{{ summary.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </main>
+    <footer>
+        <ul>
+            <li>&copy; 2023 Dan Tao</li>
+            <li><a href="https://twitter.com/dan_tao">Twitter</a></li>
+            <li><a href="https://philosopherdeveloper.com">Other writing</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
