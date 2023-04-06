@@ -12,6 +12,8 @@ import jinja2
 # Used for parsing Markdown content
 import marko
 
+markdown = marko.Markdown(extensions=['gfm'])
+
 # Get the base template that we'll use for every post.
 with open('templates/summary.html') as f:
     template_content = f.read()
@@ -29,7 +31,7 @@ for p in glob.glob('summaries/*/*.md'):
     output = template.render({
         'slug': slug,
         'title': summary['summary'],
-        'content': marko.convert(summary.content)
+        'content': markdown.convert(summary.content)
     })
     with open(f'site/summaries/{slug}.html', 'w+') as f:
         f.write(output)
@@ -49,7 +51,7 @@ with open('README.md') as f:
 with open('site/index.html', 'w+') as f:
     template = jinja2.Template(template_content)
     output = template.render({
-        'readme': marko.convert(readme),
+        'readme': markdown.convert(readme),
         'summaries': summaries
     })
     with open(f'site/index.html', 'w+') as f:
