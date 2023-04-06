@@ -27,6 +27,7 @@ for p in glob.glob('summaries/*/*.md'):
     summary = frontmatter.load(p)
     template = jinja2.Template(template_content)
     output = template.render({
+        'slug': slug,
         'title': summary['summary'],
         'content': marko.convert(summary.content)
     })
