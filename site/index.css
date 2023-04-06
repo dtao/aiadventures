@@ -8,7 +8,7 @@ main {
 }
 
 main ul li:has(input[checked]) {
-    text-decoration: line-through;
+    color: #bbb;
 }
 
 h1, h2, h3 {
