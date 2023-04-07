@@ -22,6 +22,8 @@ want to consume to learn about AI here.
 - [x] Lex Fridman interview with Eliezer Yudkowsky
 - [ ] Article: ["AGI Ruin: A List of Lethalities"][1] (Eliezer Yudkowsky)
 - [ ] Article: ["Our approach to AI safety"][2] (OpenAI)
+- [ ] Paper: ["Eight Things to Know about Large Language Models"][3]
 
 [1]: https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
 [2]: https://openai.com/blog/our-approach-to-ai-safety
+[3]: https://drive.google.com/file/d/1JPXriW70ajSYHaPhgjKCMi1Jz0SKv6BD/view
