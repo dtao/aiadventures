@@ -31,7 +31,9 @@ for p in glob.glob('summaries/*/*.md'):
     output = template.render({
         'slug': slug,
         'title': summary['summary'],
-        'content': markdown.convert(summary.content)
+        # The frontmatter library strips out the trailing newline character;
+        # add it back in to ensure links are rendered properly.
+        'content': markdown.convert(summary.content + '\n')
     })
     with open(f'site/summaries/{slug}.html', 'w+') as f:
         f.write(output)
