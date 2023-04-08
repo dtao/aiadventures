@@ -36,6 +36,16 @@ a:hover {
     color: #0bb;
 }
 
+blockquote {
+    color: #888;
+    font-family: monospace;
+    font-size: 16pt;
+
+    border-left: 4px solid #088;
+    margin-left: 0;
+    padding-left: 1em;
+}
+
 footer {
     font-size: 12pt;
     border-top: 1px solid;
