@@ -1,5 +1,6 @@
 import glob
 import os
+import shutil
 
 from pathlib import Path
 
@@ -18,30 +19,39 @@ markdown = marko.Markdown(extensions=['gfm'])
 with open('templates/summary.html') as f:
     template_content = f.read()
 
-# Ensure the output directory exists.
+# Ensure the output directory exists for summary pages.
 Path('site/summaries').mkdir(parents=True, exist_ok=True)
+
+# Ensure the output directory exists for images.
+Path('site/images').mkdir(parents=True, exist_ok=True)
 
 # Produce a rendered HTML file for each summary.
 summaries = []
-for p in glob.glob('summaries/*/*.md'):
+for p in glob.glob('summaries/*/*'):
     filename = os.path.basename(p)
-    slug, _ = os.path.splitext(filename)
-    summary = frontmatter.load(p)
-    template = jinja2.Template(template_content)
-    output = template.render({
-        'slug': slug,
-        'title': summary['summary'],
-        # The frontmatter library strips out the trailing newline character;
-        # add it back in to ensure links are rendered properly.
-        'content': markdown.convert(summary.content + '\n')
-    })
-    with open(f'site/summaries/{slug}.html', 'w+') as f:
-        f.write(output)
+    slug, ext = os.path.splitext(filename)
 
-    summaries.append({
-        'slug': slug,
-        'title': summary['summary']
-    })
+    if ext == '.md':
+        summary = frontmatter.load(p)
+        template = jinja2.Template(template_content)
+        output = template.render({
+            'slug': slug,
+            'title': summary['summary'],
+            # The frontmatter library strips out the trailing newline character;
+            # add it back in to ensure links are rendered properly.
+            'content': markdown.convert(summary.content + '\n')
+        })
+        with open(f'site/summaries/{slug}.html', 'w+') as f:
+            f.write(output)
+
+        summaries.append({
+            'slug': slug,
+            'title': summary['summary']
+        })
+
+    # Copy images to the 'images' directory.
+    elif ext in ('.gif', '.jpg', '.jpeg', '.png'):
+        shutil.copyfile(p, f'site/images/{filename}')
 
 # Produce the rendered index page.
 with open('templates/index.html') as f:
