@@ -24,8 +24,12 @@ want to consume to learn about AI here.
 - [x] Article: ["Our approach to AI safety"][2] (OpenAI)
 - [x] Paper: ["Eight Things to Know about Large Language Models"][3]
 - [ ] Article: ["What developers need to know about generative AI"][4] (GitHub)
+- [ ] Paper: ["The Vulnerable World Hypothesis"][5] (Nick Bostrom)
+- [ ] Paper: ["Learning to summarize with human feedback"][6] (OpenAI)
 
 [1]: https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
 [2]: https://openai.com/blog/our-approach-to-ai-safety
 [3]: https://drive.google.com/file/d/1JPXriW70ajSYHaPhgjKCMi1Jz0SKv6BD/view
 [4]: https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/
+[5]: https://nickbostrom.com/papers/vulnerable.pdf
+[6]: https://openai.com/research/learning-to-summarize-with-human-feedback
