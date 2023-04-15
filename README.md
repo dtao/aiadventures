@@ -26,6 +26,8 @@ want to consume to learn about AI here.
 - [ ] Article: ["What developers need to know about generative AI"][4] (GitHub)
 - [ ] Paper: ["The Vulnerable World Hypothesis"][5] (Nick Bostrom)
 - [ ] Paper: ["Learning to summarize with human feedback"][6] (OpenAI)
+- [x] Ezra Klein interview with Sam Altman
+- [ ] Article: ["Moore's Law for Everything"][7] (Sam Altman)
 
 [1]: https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
 [2]: https://openai.com/blog/our-approach-to-ai-safety
@@ -33,3 +35,4 @@ want to consume to learn about AI here.
 [4]: https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/
 [5]: https://nickbostrom.com/papers/vulnerable.pdf
 [6]: https://openai.com/research/learning-to-summarize-with-human-feedback
+[7]: https://moores.samaltman.com/
