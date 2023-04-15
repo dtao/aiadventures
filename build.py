@@ -34,7 +34,7 @@ for p in glob.glob('summaries/*/*'):
 
     if ext == '.md':
         summary = frontmatter.load(p)
-        date = datetime.strftime(summary['date'], '%b %-d, %Y')
+        title_date = datetime.strftime(summary['date'], '%b %-d, %Y')
         template = jinja2.Template(template_content)
         output = template.render({
             'slug': slug,
@@ -43,7 +43,8 @@ for p in glob.glob('summaries/*/*'):
             # add it back in to ensure links are rendered properly.
             'content': markdown.convert(summary.content + '\n'),
             'url': summary['url'],
-            'date': date
+            'title_date': title_date,
+            'date': summary['date']
         })
         with open(f'site/summaries/{slug}.html', 'w+') as f:
             f.write(output)
@@ -52,7 +53,8 @@ for p in glob.glob('summaries/*/*'):
             'slug': slug,
             'title': summary['summary'],
             'url': summary['url'],
-            'date': date
+            'title_date': title_date,
+            'date': summary['date']
         })
 
     # Copy images to the 'images' directory.
@@ -70,7 +72,7 @@ with open('site/index.html', 'w+') as f:
     template = jinja2.Template(template_content)
     output = template.render({
         'readme': markdown.convert(readme),
-        'summaries': summaries
+        'summaries': sorted(summaries, key=lambda s: s['date'], reverse=True)
     })
     with open(f'site/index.html', 'w+') as f:
         f.write(output)
