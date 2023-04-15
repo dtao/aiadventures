@@ -20,8 +20,8 @@ some inverse measure of performance, but I don't know what "Bits per word"
 means, or for that matter what the unit is for the "Compute" dimension
 (x-axis). Just as importantly: I would like to understand if this is close to
 an "objective" measure of performance (i.e. everybody agrees it's a good,
-useful metrics) vs. a subjective way of quantifying it that may be hotly
-debated among the research community.
+useful metric) vs. a subjective way of quantifying it that may be hotly debated
+among the research community.
 
 ### 2. New abilities get unlocked as LLMs get more powerful, and we don't know why
 
@@ -41,7 +41,7 @@ children over 3 years old can relate to this: it's very common to see your kid
 "turn a corner" and suddenly be able to walk, talk, draw, understand new
 concepts, etc. in a very short span of time.
 
-### 3. LLMs seems to be able to create internal models of the world
+### 3. LLMs seem to create internal models of the world
 
 Here's a particularly interesting excerpt from this section:
 
@@ -49,7 +49,7 @@ Here's a particularly interesting excerpt from this section:
 > believes and use these inferences to predict how the document will be
 > continued.
 
-Basically, those dismissive voices claim LLMs are "just predicting the next
+Basically, those dismissive voices claiming LLMs are "just predicting the next
 word" have, in my opinion, failed to acknowledge the emergence of real cognitive
 capabilities that go beyond this, even if word-prediction is in some sense the
 foundation of those capabilities. (Side note: it really has me wondering how
@@ -91,7 +91,7 @@ When an LLM gives a response to a prompt, our ability to explain precisely why
 it gave that response is extremely limited.
 
 This comes back to emergent architecture and the fact that next-word prediction
-falls far short of a satisfying explanation to what LLMs are actually doing.
+falls far short of a satisfying explanation of what LLMs are actually doing.
 
 My own 2 cents here is that I would argue it's the same for human brains. We may
 have a basic understanding of electrical signals traversing networks of neurons
@@ -99,11 +99,11 @@ as well as a high-level map of which parts of the brain are broadly responsible
 for which types of mental work; but (at the risk of exposing my ignorance in the
 field of neuroscience) that seems to be roughly the extent of what we know.
 
-Or more simply: when a human makes a decision, it isn't like we can explain to
-a high level of detail what exact mechanistic processes led to that decision. We
-accept some level of mystery with human beings. The way things are going, it
-seems to me we are very likely on a path to accepting a similar level of mystery
-with AI systems.
+Or more simply: when a human makes a decision, it isn't like we can explain in
+great detail what exact mechanistic processes led to that decision. We accept
+some level of mystery with human beings. The way things are going, it seems to
+me we are very likely on a path to accepting a similar level of mystery with AI
+systems.
 
 ### 6. LLMs can get better than humans even though they only learn from humans
 
@@ -136,10 +136,10 @@ control them.
 This is yet again related to the 2nd point, that LLMs have abilities that seem
 to get suddenly unlocked given the right input.
 
-This point is that you just play around with, say, ChatGPT for 5-10 minutes, you
-might walk away thinking you have a clear sense of what it can and can't do. But
-someone else who spends more time with the same system may discover ways of
-prompting it that result in far more advanced behavior.
+The point is that if you just play around with, say, ChatGPT for 5-10 minutes,
+you might walk away thinking you have a clear sense of what it can and can't
+do. But someone else who spends more time with the same system may discover
+ways of prompting it that result in far more advanced behavior.
 
 Honestly, I think humans are like this too. I.e. someone can hear the same
 information 10 times and not really get it. Then on the 11th time, suddenly it
