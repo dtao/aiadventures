@@ -2,6 +2,7 @@ import glob
 import os
 import shutil
 
+from datetime import datetime
 from pathlib import Path
 
 # Used for parsing YAML frontmatter
@@ -33,20 +34,25 @@ for p in glob.glob('summaries/*/*'):
 
     if ext == '.md':
         summary = frontmatter.load(p)
+        date = datetime.strftime(summary['date'], '%b %-d, %Y')
         template = jinja2.Template(template_content)
         output = template.render({
             'slug': slug,
             'title': summary['summary'],
             # The frontmatter library strips out the trailing newline character;
             # add it back in to ensure links are rendered properly.
-            'content': markdown.convert(summary.content + '\n')
+            'content': markdown.convert(summary.content + '\n'),
+            'url': summary['url'],
+            'date': date
         })
         with open(f'site/summaries/{slug}.html', 'w+') as f:
             f.write(output)
 
         summaries.append({
             'slug': slug,
-            'title': summary['summary']
+            'title': summary['summary'],
+            'url': summary['url'],
+            'date': date
         })
 
     # Copy images to the 'images' directory.

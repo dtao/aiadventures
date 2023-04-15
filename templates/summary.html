@@ -13,7 +13,13 @@
     <main>
         <h1><a href="/">AI Adventures</a></h1>
 
-        <h2><a href="/summaries/{{ slug }}.html">{{ title }}</a></h2>
+        <heading>
+            <h2><a href="/summaries/{{ slug }}.html">{{ title }}</a></h2>
+            <p>
+                <span class="date">{{ date }}</span>
+                <span class="source"><a href="{{ url }}">Source</a></span>
+            </p>
+        </heading>
 
         {{ content }}
     </main>

@@ -28,6 +28,23 @@ h1 a, h2 a, h3 a {
     text-decoration: none;
 }
 
+heading h2 {
+    margin-bottom: 0;
+}
+
+heading h2 + p {
+    color: #888;
+    font-family: monospace;
+    font-size: 20pt;
+
+    margin-top: 8px;
+}
+
+heading h2 + p > span.date {
+    padding-right: 0.5em;
+    border-right: 2px solid;
+}
+
 a {
     color: #088;
 }
