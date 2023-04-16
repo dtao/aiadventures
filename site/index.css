@@ -29,23 +29,6 @@ h1 a, h2 a, h3 a {
     text-decoration: none;
 }
 
-heading h2 {
-    margin-bottom: 0;
-}
-
-heading h2 + p {
-    color: #888;
-    font-family: monospace;
-    font-size: 20pt;
-
-    margin-top: 8px;
-}
-
-heading h2 + p > span.date {
-    padding-right: 0.5em;
-    border-right: 2px solid;
-}
-
 a {
     color: #088;
 }
@@ -83,3 +66,49 @@ footer ul li:first-child {
     border-left: none;
     padding-left: 0;
 }
+
+/* Template-specific styles */
+
+/* Index template */
+
+table.index-summaries {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.index-summaries tr:nth-child(2n) {
+    background-color: #f8f8f8;
+    border: 0;
+}
+
+table.index-summaries td {
+    padding: 0.5ex 0;
+}
+
+table.index-summaries td:last-child {
+    max-width: 150px;
+    text-align: right;
+    color: #888;
+    font-size: 16pt;
+    padding: 0.5ex 0.5em;
+}
+
+/* Summary template */
+
+heading h2 {
+    margin-bottom: 0;
+}
+
+heading h2 + p {
+    color: #888;
+    font-family: monospace;
+    font-size: 20pt;
+
+    margin-top: 8px;
+}
+
+heading h2 + p > span.date {
+    padding-right: 0.5em;
+    border-right: 2px solid;
+}
+

@@ -12,14 +12,25 @@
 
 <body>
     <main>
-        {{ readme }}
-
+        <h1>AI Adventures</h1>
+        <p>
+            I'm documenting my experiences learning about AI, covering the
+            subject as comprehensively as possible. So far, I've been reading
+            papers, listening to interviews, and writing summaries, both to
+            reinforce my own learning and to share. Over time I intend to shift
+            my focus to balance continuing to learn and offering my own
+            thoughts, proposing ideas, and hopefully contributing to practical
+            solutions however I can.
+        </p>
         <h2>Summaries</h2>
-        <ul>
+        <table class="index-summaries">
             {% for summary in summaries %}
-            <li><a href="/summaries/{{ summary.slug }}.html">{{ summary.title }}</a></li>
+            <tr>
+                <td><a href="/summaries/{{ summary.slug }}.html">{{ summary.title }}</a></td>
+                <td>{{ summary.title_date }}</td>
+            </tr>
             {% endfor %}
-        </ul>
+        </table>
     </main>
     <footer>
         <ul>
