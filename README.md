@@ -28,7 +28,7 @@ want to consume to learn about AI here.
 - [ ] Paper: ["Learning to summarize with human feedback"][6] (OpenAI)
 - [x] Ezra Klein interview with Sam Altman
 - [ ] Article: ["Moore's Law for Everything"][7] (Sam Altman)
-- [ ] Article: ["On AutoGPT"][8] (Zvi Mowshowitz)
+- [x] Article: ["On AutoGPT"][8] (Zvi Mowshowitz)
 - [ ] Article: ["Attention is All You Need"][9] (Google)
 
 [1]: https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
