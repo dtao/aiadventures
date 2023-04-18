@@ -34,11 +34,11 @@ care about this topic.
 
 These approaches are:
 
-1. Shut it down (terminate)
-2. Let it out (inoculate)
-3. Wall it off (consolidate)
+1. Terminate (shut it off)
+2. Inoculate (let it out)
+3. Consolidate (lock it down)
 
-### 1. Shut it down (terminate)
+### 1. Terminate (shut it off)
 
 The most dramatic proposal on the table that I'm aware of is to completely shut
 down AI research. This is what Eliezer Yudkowsky is advocating. In his article
@@ -104,9 +104,9 @@ government.)
 #### And then what?
 
 Something I'm not currently sure about is whether Yudkowsky and others arguing
-for the "Shut it down" approach believe we should ever _resume_ AI research
-after shutting it down. Should we just discard everything we know so far? Lock
-it up and throw away the key?
+for the "Terminate" approach believe we should ever _resume_ AI research after
+shutting it down. Should we just discard everything we know so far? Lock it up
+and throw away the key?
 
 Or are there some thresholds we need to reach, e.g. in the areas of alignment
 and interpretability, after which it will be safe to pick up where we left
@@ -116,7 +116,7 @@ according to my memory of [his conversation with Lex Fridman][5].)
 
 #### 1.1 ...or we could just _slow_ it down (decelerate)
 
-A less dramatic proposal than _shutting down_ AI research is to hit the pause
+A less dramatic proposal than _shutting off_ AI research is to hit the pause
 button for a little while and give AI safety researchers some time to catch up.
 This is effectively what the [open letter][1] that Musk et al signed is
 suggesting. The letter proposes a 6-month pause on any AI experiments using
@@ -127,9 +127,9 @@ safety, not building more powerful systems; and it also encourages AI developers
 and policymakers to collaborate on instituting thoughtful regulation to direct
 the safe development of AI systems moving forward.
 
-### 2. Let it out (inoculate)
+### 2. Inoculate (let it out)
 
-If the first approach to safety, i.e. "Shut it down", is analogous to a
+If the first approach to safety, i.e. "Shut it off", is analogous to a
 quarantine, then the second approach, "Let it out", would be more like a
 an inoculation campaign.
 
@@ -185,7 +185,7 @@ education programs, etc.) to protect ourselves.
 
 Let's hope so!
 
-### 3. Wall it off (consolidate)
+### 3. Consolidate (lock it down)
 
 I haven't heard anyone explicitly advocating for this approach. In fact, what
 I'm about to describe as an _approach to AI safety_ is more commonly identified
