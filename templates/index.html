@@ -22,6 +22,15 @@
             thoughts, proposing ideas, and hopefully contributing to practical
             solutions however I can.
         </p>
+        <h2>Thoughts</h2>
+        <table class="index-summaries">
+            {% for thought in thoughts %}
+            <tr>
+                <td><a href="/thoughts/{{ thought.slug }}.html">{{ thought.title }}</a></td>
+                <td>{{ thought.title_date }}</td>
+            </tr>
+            {% endfor %}
+        </table>
         <h2>Summaries</h2>
         <table class="index-summaries">
             {% for summary in summaries %}
