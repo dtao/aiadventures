@@ -30,6 +30,7 @@ want to consume to learn about AI here.
 - [ ] Article: ["Moore's Law for Everything"][7] (Sam Altman)
 - [x] Article: ["On AutoGPT"][8] (Zvi Mowshowitz)
 - [ ] Article: ["Attention is All You Need"][9] (Google)
+- [ ] Article: ["12 tentative ideas for US AI policy"][10] (Luke Muehlhauser)
 
 [1]: https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
 [2]: https://openai.com/blog/our-approach-to-ai-safety
@@ -40,3 +41,4 @@ want to consume to learn about AI here.
 [7]: https://moores.samaltman.com/
 [8]: https://www.lesswrong.com/posts/566kBoPi76t8KAkoD/on-autogpt
 [9]: https://arxiv.org/pdf/1706.03762.pdf
+[10]: https://www.openphilanthropy.org/research/12-tentative-ideas-for-us-ai-policy/
