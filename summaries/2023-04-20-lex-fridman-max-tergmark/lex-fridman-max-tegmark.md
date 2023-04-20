@@ -6,11 +6,12 @@ url: https://www.youtube.com/watch?v=VcVfceTsD0A
 ---
 
 I wish I had written this summary sooner after listening to this podcast,
-because now I've forgotten most of it.
+because now I've forgotten most of it. (I listened to it about a week ago, when
+it first came out.)
 
 At a very high level: Max Tegmark is an AI researcher at MIT, the co-founder of
 the Future of Life Institute, and author of the book [Life 3.0: Being Human in
-the Age of Artificial Intelligence]. He is also one of the signatories of the
+the Age of Artificial Intelligence][1]. He is also one of the signatories of the
 [open letter][2] calling for a pause on large-scale AI experiments (one of the
 [three approaches to AI safety][3]).
 
