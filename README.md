@@ -31,6 +31,7 @@ want to consume to learn about AI here.
 - [x] Article: ["On AutoGPT"][8] (Zvi Mowshowitz)
 - [ ] Article: ["Attention is All You Need"][9] (Google)
 - [ ] Article: ["12 tentative ideas for US AI policy"][10] (Luke Muehlhauser)
+- [x] Lex Fridman interview with Max Tegmark
 
 [1]: https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
 [2]: https://openai.com/blog/our-approach-to-ai-safety
