@@ -120,6 +120,14 @@ table.reading-list tr.read .title:before {
 
 table.reading-list .reading-list-link {
     float: right;
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-size: 16pt;
+}
+
+table.reading-list .reading-list-link:before {
+    content: "\2192";
+    color: #888;
+    font-size: 14pt;
 }
 
 table.reading-list .author {

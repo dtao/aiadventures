@@ -29,7 +29,9 @@
                         {% endif %}
                     </span>
                     {% if item.link %}
-                        <a class="reading-list-link" href="{{ item.link }}">Summary</a>
+                        <span class="reading-list-link">
+                            <a href="{{ item.link }}">Summary</a>
+                        </span>
                     {% endif %}
                     <span class="author">{{ item.author }}</span>
                 </td>
