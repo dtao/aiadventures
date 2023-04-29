@@ -32,6 +32,8 @@ want to consume to learn about AI here.
 - [ ] Article: ["Attention is All You Need"][9] (Google)
 - [ ] Article: ["12 tentative ideas for US AI policy"][10] (Luke Muehlhauser)
 - [x] Lex Fridman interview with Max Tegmark
+- [ ] Paper: ["The Basic AI Drives"][11] (Steve Omohundro)
+- [ ] Paper: ["The Superintelligent Will"][12] (Nick Bostrom)
 
 [1]: https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
 [2]: https://openai.com/blog/our-approach-to-ai-safety
@@ -43,3 +45,5 @@ want to consume to learn about AI here.
 [8]: https://www.lesswrong.com/posts/566kBoPi76t8KAkoD/on-autogpt
 [9]: https://arxiv.org/pdf/1706.03762.pdf
 [10]: https://www.openphilanthropy.org/research/12-tentative-ideas-for-us-ai-policy/
+[11]: http://selfawaresystems.com/2007/11/30/paper-on-the-basic-ai-drives/
+[12]: https://nickbostrom.com/superintelligentwill.pdf
