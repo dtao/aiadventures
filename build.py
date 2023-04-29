@@ -103,12 +103,11 @@ with open('templates/index.html') as f:
 with open('README.md') as f:
     readme = f.read()
 
-with open('site/index.html', 'w+') as f:
-    template = jinja2.Template(template_content)
-    output = template.render({
-        'readme': render_markdown(readme),
-        'summaries': sorted(summaries, key=lambda s: s['date'], reverse=True),
-        'thoughts': sorted(thoughts, key=lambda t: t['date'], reverse=True)
-    })
-    with open(f'site/index.html', 'w+') as f:
-        f.write(output)
+template = jinja2.Template(template_content)
+output = template.render({
+    'readme': render_markdown(readme),
+    'summaries': sorted(summaries, key=lambda s: s['date'], reverse=True),
+    'thoughts': sorted(thoughts, key=lambda t: t['date'], reverse=True)
+})
+with open(f'site/index.html', 'w+') as f:
+    f.write(output)
