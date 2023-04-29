@@ -16,6 +16,9 @@ import marko
 
 markdown = marko.Markdown(extensions=['gfm'])
 
+def render_markdown(text):
+    return markdown.convert(text)
+
 # Ensure the output directory exists for summary pages.
 Path('site/summaries').mkdir(parents=True, exist_ok=True)
 
@@ -43,7 +46,7 @@ for p in glob.glob('summaries/*/*'):
             'title': summary['summary'],
             # The frontmatter library strips out the trailing newline character;
             # add it back in to ensure links are rendered properly.
-            'content': markdown.convert(summary.content + '\n'),
+            'content': render_markdown(summary.content + '\n'),
             'url': summary['url'],
             'title_date': title_date,
             'date': summary['date']
@@ -81,7 +84,7 @@ for p in glob.glob('thoughts/*'):
             'title': thought['summary'],
             # The frontmatter library strips out the trailing newline character;
             # add it back in to ensure links are rendered properly.
-            'content': markdown.convert(thought.content + '\n'),
+            'content': render_markdown(thought.content + '\n'),
             'title_date': title_date,
             'date': thought['date']
         })
@@ -105,7 +108,7 @@ with open('README.md') as f:
 with open('site/index.html', 'w+') as f:
     template = jinja2.Template(template_content)
     output = template.render({
-        'readme': markdown.convert(readme),
+        'readme': render_markdown(readme),
         'summaries': sorted(summaries, key=lambda s: s['date'], reverse=True),
         'thoughts': sorted(thoughts, key=lambda t: t['date'], reverse=True)
     })
