@@ -2,6 +2,7 @@
 date: 2023-04-16
 type: article
 summary: On AutoGPT
+author: Zvi Mowshowitz
 url: https://www.lesswrong.com/posts/566kBoPi76t8KAkoD/on-autogpt
 ---
 

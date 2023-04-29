@@ -2,6 +2,7 @@
 date: 2023-04-12
 type: paper
 summary: Eight Things to Know about Large Language Models
+author: Sam Bowman
 url: https://drive.google.com/file/d/1JPXriW70ajSYHaPhgjKCMi1Jz0SKv6BD/view
 ---
 

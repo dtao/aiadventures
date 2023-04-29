@@ -1,7 +1,8 @@
 ---
 date: 2023-04-07
 type: article
-summary: "\"Our approach to AI safety\", OpenAI"
+summary: Our approach to AI safety
+author: OpenAI
 url: https://openai.com/blog/our-approach-to-ai-safety
 ---
 

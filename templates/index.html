@@ -39,7 +39,12 @@
         <table class="index-summaries">
             {% for summary in summaries %}
             <tr>
-                <td><a href="/summaries/{{ summary.slug }}.html">{{ summary.title }}</a></td>
+                <td>
+                    <a href="/summaries/{{ summary.slug }}.html">{{ summary.title }}</a>
+                    {% if summary.author %}
+                        <span class="author">{{ summary.author }}</span>
+                    {% endif %}
+                </td>
                 <td>{{ summary.title_date }}</td>
             </tr>
             {% endfor %}

@@ -58,7 +58,8 @@ for p in glob.glob('summaries/*/*'):
             'content': render_markdown(summary.content + '\n'),
             'url': summary['url'],
             'title_date': title_date,
-            'date': summary['date']
+            'date': summary['date'],
+            'author': summary.get('author')
         })
         with open(f'site/summaries/{slug}.html', 'w+') as f:
             f.write(output)
@@ -68,7 +69,8 @@ for p in glob.glob('summaries/*/*'):
             'title': summary['summary'],
             'url': summary['url'],
             'title_date': title_date,
-            'date': summary['date']
+            'date': summary['date'],
+            'author': summary.get('author')
         })
 
     # Copy images to the 'images' directory.

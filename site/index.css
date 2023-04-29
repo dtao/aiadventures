@@ -88,10 +88,18 @@ footer ul li:first-child {
 
 /* Template-specific styles */
 
+/* Used in multiple templates */
+
+table .author {
+    display: block;
+    color: #888;
+    font-size: 16pt;
+}
+
 /* Index template */
 
 table.index-summaries td:last-child {
-    max-width: 150px;
+    width: 150px;
     text-align: right;
     color: #888;
     font-size: 16pt;
@@ -130,16 +138,16 @@ table.reading-list .reading-list-link:before {
     font-size: 14pt;
 }
 
-table.reading-list .author {
-    display: block;
-    color: #888;
-    font-size: 16pt;
-}
-
 /* Summary template */
 
 heading h2 {
     margin-bottom: 0;
+}
+
+heading h2 .author {
+    color: #bbb;
+    font-size: 24pt;
+    display: inline-block;
 }
 
 heading h2 + p {
