@@ -12,12 +12,10 @@ import frontmatter
 import jinja2
 
 # Used for parsing Markdown content
-import marko
-
-markdown = marko.Markdown(extensions=['gfm'])
+import markdown
 
 def render_markdown(text):
-    return markdown.convert(text)
+    return markdown.markdown(text, extensions=['footnotes', 'smarty'])
 
 # Ensure the output directory exists for summary pages.
 Path('site/summaries').mkdir(parents=True, exist_ok=True)
