@@ -14,8 +14,19 @@ import jinja2
 # Used for parsing Markdown content
 import markdown
 
+# Used for parsing reading list YAML (same lib used by frontmatter)
+import yaml
+
+try:
+    from yaml import CLoader as Loader, CDumper as Dumper
+except ImportError:
+    from yaml import Loader, Dumper
+
 def render_markdown(text):
     return markdown.markdown(text, extensions=['footnotes', 'smarty'])
+
+def parse_yaml(file):
+    return yaml.load(file, Loader=Loader)
 
 # Ensure the output directory exists for summary pages.
 Path('site/summaries').mkdir(parents=True, exist_ok=True)
@@ -110,4 +121,16 @@ output = template.render({
     'thoughts': sorted(thoughts, key=lambda t: t['date'], reverse=True)
 })
 with open(f'site/index.html', 'w+') as f:
+    f.write(output)
+
+# Produce the rendered reading list.
+with open('templates/reading-list.html') as f:
+    template_content = f.read()
+
+with open('reading-list.yml') as f:
+    reading_list = parse_yaml(f)
+
+template = jinja2.Template(template_content)
+output = template.render({'items': reading_list})
+with open(f'site/reading-list.html', 'w+') as f:
     f.write(output)

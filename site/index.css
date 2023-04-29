@@ -52,6 +52,20 @@ blockquote {
     padding-left: 1em;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+    border: 0;
+}
+
+table td {
+    padding: 0.5ex 0.5em;
+}
+
 footer {
     font-size: 12pt;
     border-top: 1px solid;
@@ -76,26 +90,32 @@ footer ul li:first-child {
 
 /* Index template */
 
-table.index-summaries {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-table.index-summaries tr:nth-child(2n) {
-    background-color: #f8f8f8;
-    border: 0;
-}
-
-table.index-summaries td {
-    padding: 0.5ex 0;
-}
-
 table.index-summaries td:last-child {
     max-width: 150px;
     text-align: right;
     color: #888;
     font-size: 16pt;
     padding: 0.5ex 0.5em;
+}
+
+/* Reading list template */
+
+table.reading-list tr.read .title {
+    opacity: 0.5;
+    text-decoration: line-through;
+    margin-left: -0.75em;
+}
+
+table.reading-list tr.read .title:before {
+    position: relative;
+    left: -1.5em;
+    float: left;
+    content: "\2713";
+    color: #084;
+}
+
+table.reading-list .reading-list-link {
+    float: right;
 }
 
 /* Summary template */

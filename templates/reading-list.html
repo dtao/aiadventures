@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>AI Adventures</title>
+
+    <!-- Make it beautiful. -->
+    <link rel="stylesheet" href="/index.css" />
+</head>
+
+<body>
+    <main>
+        <h1><a href="/">Reflections on AI</a></h1>
+        <h2>Reading List</h2>
+        <p>
+            I will keep track of books, articles, interviews, courses, and
+            other content I want to consume to learn about AI here.
+        </p>
+        <table class="reading-list">
+            {% for item in items %}
+            <tr class="{% if item.status == 'done' %}read{% else %}unread{% endif %}">
+                <td>
+                    <span class="title">
+                        {% if item.url %}
+                            <a href="{{ item.url }}">{{ item.title }}</a>
+                        {% else %}
+                            {{ item.title }}
+                        {% endif %}
+                    </span>
+                    {% if item.link %}
+                        <a class="reading-list-link" href="{{ item.link }}">Summary</a>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </main>
+    <footer>
+        <ul>
+            <li>&copy; 2023 Dan Tao</li>
+            <li><a href="https://twitter.com/dan_tao">Twitter</a></li>
+            <li><a href="https://philosopherdeveloper.com">Other writing</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

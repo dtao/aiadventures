@@ -6,3 +6,6 @@ markdown==3.3.3
 
 # Used for parsing YAML frontmatter
 python-frontmatter==1.0.0
+
+# Explicitly declare dependency on PyYAML (used by python-frontmatter)
+PyYAML==6.0
