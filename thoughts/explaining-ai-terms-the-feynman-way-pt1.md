@@ -19,7 +19,7 @@ start.
 
 1. Gradient descent
 1. Instrumental convergence
-1. Mesa optimizer
+1. Mesa-optimizer
 1. Orthogonality thesis
 
 ### Gradient descent
@@ -88,12 +88,12 @@ The idea of instrumental convergence _seems_ to be that self-preservation (as
 one example) is a value that any rational intelligent system will exhibit as a
 logical inevitability. I would guess that the explanation of the apparent human
 counterexamples I've cited above would be that they demonstrate that we are not
-completely rational creatures (but that superintelligent AI agent _would_ be).
+completely rational creatures (but that a superintelligent AI agent _would_ be).
 At the moment I find myself skeptical of this explanation (which I've just
 invented and 100% acknowledge as a likely straw man) because it doesn't seem to
 me that we understand the relationship between intelligence, rationality, and
 apparent irrationality well enough to confidently assert that the latter will
-not emerge in AI systems.
+not emerge in systems, AI or otherwise, exhibiting the former.
 
 ---
 
@@ -102,9 +102,9 @@ get the basic idea, which isn't very complicated. But because I haven't read the
 influential articles introducing and refining this idea from Steve Omohundro and
 Nick Bostrom, I may under-appreciate how convincing the arguments for it are. To
 increase my score I'll probably want to read at least [The Basic AI Drives][3]
-and [Superintelligent Will][4]. I've added both to my reading list.
+and [Superintelligent Will][4]. I've added both to my [reading list][6].
 
-### Mesa optimizer
+### Mesa-optimizer
 
 I've skimmed the [AI Alignment Forum article][5] on this. This one's pretty easy
 for me to understand: if you create a system by some optimization process, e.g.
@@ -129,16 +129,17 @@ again, etc. I wonder if this could be like that._
 Regarding instrumental convergence, I questioned the idea that self-preservation
 is an inevitable value of any intelligent system, and speculated that
 irrationality could emerge in otherwise rational systems for reasons we (or at
-least _I_) don't yet understand. I have a hunch that the phenomenon of the mesa
-optimizer is in fact related to this. Rationality as we know it could be the
-result of a particular optimization, which (perhaps coupled with certain other
-emergent phenomena e.g. moral values) produces another layer of irrationality.
+least _I_) don't yet understand. I have a hunch that the phenomenon of the
+mesa-optimizer is in fact related to this. Rationality as we know it could be
+the result of a particular optimization, which (perhaps coupled with certain
+other emergent phenomena e.g. moral values) produces another layer of
+irrationality.
 
 ---
 
 I give myself a **3 out of 5** on this topic. Once again, to score higher I
 would need to read more about it. Actually, to give myself a 5 out of 5 I would
-want to build a simple prototype that demonstrates mesa optimization. I wonder
+want to build a simple prototype that demonstrates mesa-optimization. I wonder
 how feasible that would be.
 
 ### Orthogonality thesis
@@ -174,10 +175,11 @@ Bostrom, who I believe is a very smart person. _(Disclaimer: I don't actually
 know all that much about Nick Bostrom. I've heard him on Sam Harris's podcast,
 and I know that he is fairly well-known and widely respected.)_ So either I'm
 right and Nick Bostrom missed a glaring contradiction in his own paper, or---far
-more likely---I am simply something.
+more likely---I am simply missing something.
 
 [1]: https://en.wikipedia.org/wiki/Gradient_descent
 [2]: https://www.lesswrong.com/tag/instrumental-convergence
 [3]: http://selfawaresystems.com/2007/11/30/paper-on-the-basic-ai-drives/
 [4]: https://nickbostrom.com/superintelligentwill.pdf
 [5]: https://www.alignmentforum.org/tag/mesa-optimization
+[6]: /reading-list.html
