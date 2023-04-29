@@ -31,6 +31,7 @@
                     {% if item.link %}
                         <a class="reading-list-link" href="{{ item.link }}">Summary</a>
                     {% endif %}
+                    <span class="author">{{ item.author }}</span>
                 </td>
             </tr>
             {% endfor %}
