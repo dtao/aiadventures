@@ -80,3 +80,9 @@
   type: interview
   status: done
   link: /summaries/lex-fridman-yann-lecun.html
+- title: AI Alignment Is Turning from Alchemy Into Chemistry
+  type: article
+  author: Alexey Guzey
+  url: https://guzey.com/ai/alignment-alchemy/
+  status: done
+  link: /summaries/ai-alignment-alchemy-chemistry.html
