@@ -9,10 +9,10 @@ url: https://selfawaresystems.files.wordpress.com/2008/01/ai_drives_final.pdf
 _Note: this paper was written in 2008._
 
 As far as I know, this paper by Steve Omohundro introduced the idea that was
-later repackaged by Nick Bostrom as _instrumental convergence_. The idea is that
-regardless of an AI system's "goals", which may well be harmless, as the system
-becomes more capable it will develop intermediate goals or "drives" in service
-of these goals; and these drives themselves may not be so harmless.
+later [repackaged by Nick Bostrom as _instrumental convergence_][6]. The idea
+is that regardless of an AI system's "goals", which may well be harmless, as
+the system becomes more capable it will develop intermediate goals or "drives"
+in service of these goals; and these drives themselves may not be so harmless.
 
 The following is my attempt to cover them all concisely. For illustration, let's
 imagine an AI system whose only explicit goal is to win at chess.
@@ -69,8 +69,8 @@ even _remotely_ true of humans: collectively, our willingness to try potentially
 dangerous things without knowing the consequences in advance practically defines
 us as a species. (Exhibit A: the field of artificial intelligence!)
 
-Does Omohundro feel differently? Or would agree with this, but he feels that AI
-will be fundamentally different from us in this regard? Why would it be?
+Does Omohundro feel differently? Or would he agree with this, but he feels that
+AI will be fundamentally different from us in this regard? Why would it be?
 
 > So how can it ensure that future self-modifications will accomplish its
 > current objectives? For one thing, it has to make those objectives clear to
@@ -78,7 +78,7 @@ will be fundamentally different from us in this regard? Why would it be?
 
 Again, to me human behavior seems like a counterpoint to this. We are
 [mesa-optimizers][1], are we not? In the developed world, affluence is
-negatively correlated with birth rates.
+negatively correlated with birth rates, as one example.
 
 > In many situations, irrational collective behavior arising from conflicting
 > component goals ultimately hurts those components.
@@ -112,7 +112,7 @@ whether such a thing is even possible. That said, maybe 15 years from now it
 will seem prehistoric that the most advanced AI systems we had in 2023 were so
 opaque.
 
-Also: humans clearly value self-preservation. But under threat, a human's
+But also: humans clearly value self-preservation. But under threat, a human's
 behavior can be unpredictable. They may do nothing (paralyzed with fear).
 Picture a hostage following instructions silently while a gun is held to their
 head. They may know they are likely doomed but fail to see a viable alternative.
@@ -120,6 +120,9 @@ The rational response might be a "wait and see" approach, cooperating to
 optimize for short-term survival while holding out hope that new opportunities
 will present themselves, e.g. someone might show up to rescue them, or their
 aggressor might trip and drop their weapon.
+
+My point is we already have evidence of intelligent systems that theoretically
+_should_ exhibit self-preservation at all times, but actually don't.
 
 Regarding efficient use of resources:
 
@@ -146,3 +149,4 @@ relative to our cognitive abilities.)
 [3]: /summaries/eight-things-to-know-about-llms.html
 [4]: /summaries/lex-fridman-max-tegmark.html
 [5]: https://arxiv.org/pdf/2202.05262.pdf
+[6]: /summaries/superintelligent-will.html
