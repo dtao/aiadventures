@@ -53,6 +53,7 @@ for p in glob.glob('summaries/*/*'):
         output = template.render({
             'slug': slug,
             'title': summary['summary'],
+            'subtitle': summary.get('subtitle'),
             # The frontmatter library strips out the trailing newline character;
             # add it back in to ensure links are rendered properly.
             'content': render_markdown(summary.content + '\n'),

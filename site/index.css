@@ -144,6 +144,12 @@ heading h2 {
     margin-bottom: 0;
 }
 
+heading h2 .subtitle {
+    color: #444;
+    font-size: 28pt;
+    font-weight: normal;
+}
+
 heading h2 .author {
     color: #bbb;
     font-size: 24pt;
