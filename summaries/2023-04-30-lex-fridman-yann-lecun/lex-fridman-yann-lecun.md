@@ -1,5 +1,5 @@
 ---
-date: 2023-05-01
+date: 2023-04-30
 type: interview
 summary: Lex Fridman interview with Yann LeCun
 url: https://www.youtube.com/watch?v=SGzMElJ11Cc
