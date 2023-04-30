@@ -1,85 +1,124 @@
-- title: Kara Swisher interview with Sam Altman
+# ----- Up next -----
+
+- title: Bankless interview with Paul Christiano
   type: interview
-  status: done
-  link: /summaries/kara-swisher-sam-altman.html
-- title: Lex Fridman interview with Sam Altman
-  type: interview
-  status: done
-  link: /summaries/lex-fridman-sam-altman.html
-- title: Lex Fridman interview with Eliezer Yudkowsky
-  type: interview
-  status: done
-  link: /summaries/lex-fridman-eliezer-yudkowsky.html
+
 - title: "AGI Ruin: A List of Lethalities"
   type: article
   author: Eliezer Yudkowsky
   url: https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
+
+- title: Moore's Law for Everything
+  type: article
+  author: Sam Altman
+  url: https://moores.samaltman.com/
+
+- title: 12 tentative ideas for US AI policy
+  type: article
+  author: Luke Muehlhauser
+  url: https://www.openphilanthropy.org/research/12-tentative-ideas-for-us-ai-policy/
+
+- title: Attention is All You Need
+  type: article
+  author: Google
+  url: https://arxiv.org/pdf/1706.03762.pdf
+
+- title: Learning to summarize with human feedback
+  type: paper
+  author: OpenAI
+  url: https://openai.com/research/learning-to-summarize-with-human-feedback
+
+- title: Discovering Latent Knowledge in Language Models Without Supervision
+  type: paper
+  author: Collin Burns
+  url: https://arxiv.org/abs/2212.03827
+
+- title: "Self-supervised learning: The dark matter of intelligence"
+  type: article
+  author: Yann LeCun
+  url: https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/
+
+- title: What developers need to know about generative AI
+  type: article
+  author: GitHub
+  url: https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/
+
+- title: The Vulnerable World Hypothesis
+  type: paper
+  author: Nick Bostrom
+  url: https://nickbostrom.com/papers/vulnerable.pdf
+
+- title: Inside View interview with Simeon Campos
+  type: interview
+  url: https://twitter.com/MichaelTrazzi/status/1652335209755602947
+
+# ----- Done -----
+
+- title: Kara Swisher interview with Sam Altman
+  type: interview
+  status: done
+  link: /summaries/kara-swisher-sam-altman.html
+
+- title: Lex Fridman interview with Sam Altman
+  type: interview
+  status: done
+  link: /summaries/lex-fridman-sam-altman.html
+
+- title: Lex Fridman interview with Eliezer Yudkowsky
+  type: interview
+  status: done
+  link: /summaries/lex-fridman-eliezer-yudkowsky.html
+
 - title: Our approach to AI safety
   type: article
   author: OpenAI
   url: https://openai.com/blog/our-approach-to-ai-safety
   status: done
   link: /summaries/our-approach-to-ai-safety.html
+
 - title: Eight Things to Know about Large Language Models
   type: paper
   author: Sam Bowman
   url: https://drive.google.com/file/d/1JPXriW70ajSYHaPhgjKCMi1Jz0SKv6BD/view
   status: done
   link: /summaries/eight-things-to-know-about-llms.html
-- title: What developers need to know about generative AI
-  type: article
-  author: GitHub
-  url: https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/
-- title: The Vulnerable World Hypothesis
-  type: paper
-  author: Nick Bostrom
-  url: https://nickbostrom.com/papers/vulnerable.pdf
-- title: Learning to summarize with human feedback
-  type: paper
-  author: OpenAI
-  url: https://openai.com/research/learning-to-summarize-with-human-feedback
+
 - title: Ezra Klein interview with Sam Altman
   type: interview
   status: done
   link: /summaries/ezra-klein-sam-altman.html
-- title: Moore's Law for Everything
-  type: article
-  author: Sam Altman
-  url: https://moores.samaltman.com/
+
 - title: On AutoGPT
   type: article
   author: Zvi Mowshowitz
   url: https://www.lesswrong.com/posts/566kBoPi76t8KAkoD/on-autogpt
   status: done
   link: /summaries/on-autogpt.html
-- title: Attention is All You Need
-  type: article
-  author: Google
-  url: https://arxiv.org/pdf/1706.03762.pdf
-- title: 12 tentative ideas for US AI policy
-  type: article
-  author: Luke Muehlhauser
-  url: https://www.openphilanthropy.org/research/12-tentative-ideas-for-us-ai-policy/
+
 - title: Lex Fridman interview with Max Tegmark
   type: interview
   status: done
   link: /summaries/lex-fridman-max-tegmark.html
+
 - title: The Basic AI Drives
   type: paper
   author: Steve Omohundro
   url: http://selfawaresystems.com/2007/11/30/paper-on-the-basic-ai-drives/
   status: done
   link: /summaries/basic-ai-drives.html
+
 - title: The Superintelligent Will
   type: paper
   author: Nick Bostrom
   url: https://nickbostrom.com/superintelligentwill.pdf
   status: done
   link: /summaries/superintelligent-will.html
+
 - title: Lex Fridman interview with Yann LeCun
   type: interview
   status: done
   link: /summaries/lex-fridman-yann-lecun.html
+
 - title: AI Alignment Is Turning from Alchemy Into Chemistry
   type: article
   author: Alexey Guzey
