@@ -15,22 +15,19 @@ significantly more concerned about AI safety than LeCun does.
 
 Related: [here's a transcript of a conversation between LeCun and Yudkowsky][3].
 
-To be honest, I struggled to absorb much of the first hour or so of this
-conversation. It isn't that it failed to hold my interest; I think it was just
-a bit too academic for me to understand given how new I am to the entire field.
 LeCun spoke at length about [self-supervised learning][4], which is a technique
 for enabling AI systems to develop generalized knowledge of the world, also
 known as common sense, which he called the "dark matter" of intelligence.
 
 One casual observation LeCun made that stuck with me was that a human child can
 see just a few pictures of an elephant, for example in a children's book, and
-from just those few pictures develop a fairly accurate internal model of what an
-elephant is. In contrast, machine learning models (at least as of when the
+from just those few pictures develop a fairly accurate internal model of what
+an elephant is. In contrast, machine learning models (at least as of when the
 interview took place) require data sets that are orders of magnitude larger.
 LeCun believes that the key reason for this is that the human child utilizes
-extensive background knowledge that the model doesn't have. He considers this a
-relative blind spot among the AI research community, hence the "dark matter"
-analogy.
+extensive background knowledge that the model doesn't have. He considers the
+acquisition and role of this background knowledge to be poorly understood by
+the AI research community, hence the "dark matter" analogy.
 
 Fridman and LeCun also talked for a bit about Meta, Facebook, the history and
 culture of FAIR (at the time, "Facebook AI Research", but now rebranded to
@@ -39,8 +36,8 @@ Fridman observed that perhaps social media has increased division, but that one
 should look at all of its effects, not just one in isolation. Adding to this,
 LeCun made an interesting point---that the _printing press_ increased division,
 in fact in a huge way, as it gave rise to Protestantism. I myself am not
-especially sympathetic towards Facebook, but I found that to be a
-thought-provoking point.
+especially sympathetic towards Meta, but I found that to be a thought-provoking
+point.
 
 Towards the final third of the conversation, I became much more engaged as they
 started discussing some truly fascinating topics. One in particular that I
