@@ -25,6 +25,11 @@
   author: OpenAI
   url: https://openai.com/research/learning-to-summarize-with-human-feedback
 
+- title: Learning from human preferences
+  type: paper
+  author: OpenAI
+  url: https://openai.com/research/learning-from-human-preferences
+
 - title: Discovering Latent Knowledge in Language Models Without Supervision
   type: paper
   author: Collin Burns
@@ -44,6 +49,10 @@
   type: paper
   author: Nick Bostrom
   url: https://nickbostrom.com/papers/vulnerable.pdf
+
+- title: FLI interview with Connor Leahy
+  type: interview
+  url: https://www.youtube.com/watch?v=ps_CCGvgLS8
 
 - title: Inside View interview with Simeon Campos
   type: interview
