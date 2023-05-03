@@ -1,8 +1,5 @@
 # ----- Up next -----
 
-- title: Bankless interview with Paul Christiano
-  type: interview
-
 - title: "AGI Ruin: A List of Lethalities"
   type: article
   author: Eliezer Yudkowsky
@@ -125,3 +122,8 @@
   url: https://guzey.com/ai/alignment-alchemy/
   status: done
   link: /summaries/ai-alignment-alchemy-chemistry.html
+
+- title: Bankless interview with Paul Christiano
+  type: interview
+  status: done
+  link: /summaries/bankless-paul-christiano.html
