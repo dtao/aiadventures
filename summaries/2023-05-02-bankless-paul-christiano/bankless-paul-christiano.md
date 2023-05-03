@@ -67,7 +67,7 @@ easy things for dumb reasons.
 
 The hosts asked Christiano to describe some of the things we might be able to do
 to bring the risks down. He talked about a few approaches to alignment where he
-seems some progress, including **scalable oversight**, which involves building
+sees some progress, including **scalable oversight**, which involves building
 systems that enhance our ability to comprehend and validate the behavior of
 either themselves or other systems. The idea is that a large part of the risk we
 are facing comes from humans not being able to interpret why AI systems today
