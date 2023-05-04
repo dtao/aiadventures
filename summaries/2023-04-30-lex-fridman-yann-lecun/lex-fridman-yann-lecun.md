@@ -63,7 +63,7 @@ It struck me that this is potentially a significant opportunity for someone with
 the right skills and insight to have a huge impact on science in general, and
 artificial intelligence in particular. The fact that we [seem to be seeing
 emergence in modern AI systems][6], yet we lack a robust theoretical or
-mathematical undersatnding of emergence, feels imporatnt.
+mathematical understanding of emergence, feels important.
 
 [1]: /summaries/lex-fridman-sam-altman.html
 [2]: /thoughts/three-approaches-to-ai-safety.html
