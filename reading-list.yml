@@ -50,10 +50,6 @@
   author: Nick Bostrom
   url: https://nickbostrom.com/papers/vulnerable.pdf
 
-- title: FLI interview with Connor Leahy
-  type: interview
-  url: https://www.youtube.com/watch?v=ps_CCGvgLS8
-
 - title: Inside View interview with Simeon Campos
   type: interview
   url: https://twitter.com/MichaelTrazzi/status/1652335209755602947
@@ -136,3 +132,9 @@
   type: interview
   status: done
   link: /summaries/bankless-paul-christiano.html
+
+- title: FLI interview with Connor Leahy
+  type: interview
+  url: https://www.youtube.com/watch?v=ps_CCGvgLS8
+  status: done
+  link: /summaries/fli-connor-leahy.html
