@@ -56,70 +56,16 @@
 
 # ----- Done -----
 
-- title: Kara Swisher interview with Sam Altman
+- title: FLI interview with Connor Leahy
+  type: interview
+  url: https://www.youtube.com/watch?v=ps_CCGvgLS8
+  status: done
+  link: /summaries/fli-connor-leahy.html
+
+- title: Bankless interview with Paul Christiano
   type: interview
   status: done
-  link: /summaries/kara-swisher-sam-altman.html
-
-- title: Lex Fridman interview with Sam Altman
-  type: interview
-  status: done
-  link: /summaries/lex-fridman-sam-altman.html
-
-- title: Lex Fridman interview with Eliezer Yudkowsky
-  type: interview
-  status: done
-  link: /summaries/lex-fridman-eliezer-yudkowsky.html
-
-- title: Our approach to AI safety
-  type: article
-  author: OpenAI
-  url: https://openai.com/blog/our-approach-to-ai-safety
-  status: done
-  link: /summaries/our-approach-to-ai-safety.html
-
-- title: Eight Things to Know about Large Language Models
-  type: paper
-  author: Sam Bowman
-  url: https://drive.google.com/file/d/1JPXriW70ajSYHaPhgjKCMi1Jz0SKv6BD/view
-  status: done
-  link: /summaries/eight-things-to-know-about-llms.html
-
-- title: Ezra Klein interview with Sam Altman
-  type: interview
-  status: done
-  link: /summaries/ezra-klein-sam-altman.html
-
-- title: On AutoGPT
-  type: article
-  author: Zvi Mowshowitz
-  url: https://www.lesswrong.com/posts/566kBoPi76t8KAkoD/on-autogpt
-  status: done
-  link: /summaries/on-autogpt.html
-
-- title: Lex Fridman interview with Max Tegmark
-  type: interview
-  status: done
-  link: /summaries/lex-fridman-max-tegmark.html
-
-- title: The Basic AI Drives
-  type: paper
-  author: Steve Omohundro
-  url: http://selfawaresystems.com/2007/11/30/paper-on-the-basic-ai-drives/
-  status: done
-  link: /summaries/basic-ai-drives.html
-
-- title: The Superintelligent Will
-  type: paper
-  author: Nick Bostrom
-  url: https://nickbostrom.com/superintelligentwill.pdf
-  status: done
-  link: /summaries/superintelligent-will.html
-
-- title: Lex Fridman interview with Yann LeCun
-  type: interview
-  status: done
-  link: /summaries/lex-fridman-yann-lecun.html
+  link: /summaries/bankless-paul-christiano.html
 
 - title: AI Alignment Is Turning from Alchemy Into Chemistry
   type: article
@@ -128,13 +74,67 @@
   status: done
   link: /summaries/ai-alignment-alchemy-chemistry.html
 
-- title: Bankless interview with Paul Christiano
+- title: Lex Fridman interview with Yann LeCun
   type: interview
   status: done
-  link: /summaries/bankless-paul-christiano.html
+  link: /summaries/lex-fridman-yann-lecun.html
 
-- title: FLI interview with Connor Leahy
-  type: interview
-  url: https://www.youtube.com/watch?v=ps_CCGvgLS8
+- title: The Superintelligent Will
+  type: paper
+  author: Nick Bostrom
+  url: https://nickbostrom.com/superintelligentwill.pdf
   status: done
-  link: /summaries/fli-connor-leahy.html
+  link: /summaries/superintelligent-will.html
+
+- title: The Basic AI Drives
+  type: paper
+  author: Steve Omohundro
+  url: http://selfawaresystems.com/2007/11/30/paper-on-the-basic-ai-drives/
+  status: done
+  link: /summaries/basic-ai-drives.html
+
+- title: Lex Fridman interview with Max Tegmark
+  type: interview
+  status: done
+  link: /summaries/lex-fridman-max-tegmark.html
+
+- title: On AutoGPT
+  type: article
+  author: Zvi Mowshowitz
+  url: https://www.lesswrong.com/posts/566kBoPi76t8KAkoD/on-autogpt
+  status: done
+  link: /summaries/on-autogpt.html
+
+- title: Ezra Klein interview with Sam Altman
+  type: interview
+  status: done
+  link: /summaries/ezra-klein-sam-altman.html
+
+- title: Eight Things to Know about Large Language Models
+  type: paper
+  author: Sam Bowman
+  url: https://drive.google.com/file/d/1JPXriW70ajSYHaPhgjKCMi1Jz0SKv6BD/view
+  status: done
+  link: /summaries/eight-things-to-know-about-llms.html
+
+- title: Our approach to AI safety
+  type: article
+  author: OpenAI
+  url: https://openai.com/blog/our-approach-to-ai-safety
+  status: done
+  link: /summaries/our-approach-to-ai-safety.html
+
+- title: Lex Fridman interview with Eliezer Yudkowsky
+  type: interview
+  status: done
+  link: /summaries/lex-fridman-eliezer-yudkowsky.html
+
+- title: Lex Fridman interview with Sam Altman
+  type: interview
+  status: done
+  link: /summaries/lex-fridman-sam-altman.html
+
+- title: Kara Swisher interview with Sam Altman
+  type: interview
+  status: done
+  link: /summaries/kara-swisher-sam-altman.html
