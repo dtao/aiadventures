@@ -89,7 +89,7 @@ As an oversimplified example of both of these risks: we might ask an AI robot,
 the robot might say, "Absolutely not, I would never cause you harm." And then
 we might give them a knife, and turn our backs, and then they stab us.
 
-This is really a class of risk that all of us deals with on a daily basis, as
+This is really a class of risk that all of us deal with on a daily basis, as
 human beings are already intelligent agents who can adapt their behavior to the
 situation and sometimes be deceptive. I think the reasons the risk feels more
 acute with AI are that:
