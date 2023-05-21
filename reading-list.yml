@@ -1,10 +1,5 @@
 # ----- Up next -----
 
-- title: "AGI Ruin: A List of Lethalities"
-  type: article
-  author: Eliezer Yudkowsky
-  url: https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
-
 - title: Moore's Law for Everything
   type: article
   author: Sam Altman
@@ -55,6 +50,13 @@
   url: https://twitter.com/MichaelTrazzi/status/1652335209755602947
 
 # ----- Done -----
+
+- title: "AGI Ruin: A List of Lethalities"
+  type: article
+  author: Eliezer Yudkowsky
+  url: https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
+  status: done
+  link: /summaries/agi-ruin-list-of-lethalities.html
 
 - title: FLI interview with Connor Leahy
   type: interview
