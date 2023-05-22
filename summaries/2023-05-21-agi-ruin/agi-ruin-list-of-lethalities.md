@@ -46,13 +46,12 @@ the years.
 1. **P1** The current trajectory of AI research will lead to superhuman AGI.
 2. **P2** Superhuman AGI will be capable of escaping any human efforts to
    control it.
-3. **P3** Superhuman AGI will be _misaligned_ by default, i.e. it will not
-   magically behave according to values or set long-term goals that won't lead
-   to extinction-level outcomes, meaning outcomes that are _as bad as_ human
-   extinction.
+3. **P3** Superhuman AGI will be _misaligned_ by default, i.e. it will likely
+   adopt values and/or set long-term goals that will lead to extinction-level
+   outcomes, meaning outcomes that are _as bad as_ human extinction.
 4. **P4** We do not know _how to align_ superhuman AGI, i.e. reliably imbue it
    with values or define long-term goals that will ensure it does _not_
-   ultimately produce an extinction-level outcome, without some amount of trial
+   ultimately lead to an extinction-level outcome, without some amount of trial
    & error (how nearly all of scientific research works).
 
 ### Conclusions
