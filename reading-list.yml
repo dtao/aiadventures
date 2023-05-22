@@ -20,6 +20,11 @@
   author: OpenAI
   url: https://openai.com/research/learning-to-summarize-with-human-feedback
 
+- title: On Emergence and Explanation
+  type: paper
+  author: Santa Fe Institute
+  url: https://www.santafe.edu/research/results/working-papers/on-emergence-and-explanation
+
 - title: Learning from human preferences
   type: paper
   author: OpenAI
@@ -48,6 +53,23 @@
 - title: Inside View interview with Simeon Campos
   type: interview
   url: https://twitter.com/MichaelTrazzi/status/1652335209755602947
+
+- title: Liv Boeree on Moloch, Beauty Filters, Game Theory, Institutions, and AI
+  type: interview
+  url: https://futureoflife.org/podcast/liv-boeree-on-moloch-beauty-filters-game-theory-institutions-and-ai/
+
+- title: "Lennart Heim on the AI Triad: Compute, Data, and Algorithms"
+  type: interview
+  url: https://futureoflife.org/podcast/lennart-heim-on-the-ai-triad-compute-data-and-algorithms/
+
+- title: Nathan Labenz on the Cognitive Revolution, Red Teaming GPT-4, and Potential Dangers of AI
+  type: interview
+  url: https://futureoflife.org/podcast/nathan-labenz-on-the-cognitive-revolution-red-teaming-gpt-4-and-potential-dangers-of-ai/
+
+- title: "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting"
+  type: paper
+  author: Miles Turpin
+  url: https://arxiv.org/abs/2305.04388
 
 # ----- Done -----
 
