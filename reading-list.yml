@@ -1,10 +1,5 @@
 # ----- Up next -----
 
-- title: Moore's Law for Everything
-  type: article
-  author: Sam Altman
-  url: https://moores.samaltman.com/
-
 - title: 12 tentative ideas for US AI policy
   type: article
   author: Luke Muehlhauser
@@ -72,6 +67,13 @@
   url: https://arxiv.org/abs/2305.04388
 
 # ----- Done -----
+
+- title: Moore's Law for Everything
+  type: article
+  author: Sam Altman
+  url: https://moores.samaltman.com/
+  status: done
+  link: /summaries/moores-law-for-everything.html
 
 - title: "AGI Ruin: A List of Lethalities"
   type: article
