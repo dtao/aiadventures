@@ -3,6 +3,7 @@ date: 2023-05-21
 type: article
 summary: AGI Ruin
 subtitle: A List of Lethalities
+author: Eliezer Yudkowsky
 url: https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
 ---
 
