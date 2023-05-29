@@ -42,6 +42,12 @@ a:hover {
     color: #0bb;
 }
 
+main code {
+    font-size: 20pt;
+    background-color: #ddd;
+    padding: 0.1ex 0.25em;
+}
+
 blockquote {
     color: #888;
     font-family: monospace;
@@ -55,6 +61,7 @@ blockquote {
 p > img {
     display: block;
     margin: auto;
+    max-width: 100%;
 }
 
 table {
