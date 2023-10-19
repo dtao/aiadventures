@@ -43,9 +43,11 @@ My explanation of the topics covered, to check my understanding the Feynman way:
 predictions given a known data set. In the case of linear regression, the idea
 is to find the terms in the linear formula `y = mx + b` (specifically m and b,
 called _parameters_) that will produce the most accurate predictions for `y`
-given `x`. **Classification**, in contrast, produces _categorical_ predictions,
-e.g. "yes" or "no" for whether a tumor is malignant, or "dog", "cat" etc. for
-identifying the subject of a photo.
+given `x`.
+
+**Classification**, in contrast, produces _categorical_ predictions, e.g. "yes"
+or "no" for whether a tumor is malignant; or "dog", "cat" etc. for identifying
+the subject of a photo.
 
 ### Loss function
 
@@ -91,8 +93,8 @@ The sigmoid function provides an alternative loss function for classification
 problems and is used in **logistic regression**. This is a type of
 classification where the possible values for a data point are binary, i.e. true
 or false. Logistic regression can produce probabilistic predictions or
-confidence levels, i.e. the probability a tumor is malignant based on images
-and measurements.
+confidence levels, e.g. the probability of passing an exam based on hours spent
+studying.
 
 ![Example Sigmoid function](/images/supervised-machine-learning-sigmoid-function.png)
 
@@ -113,10 +115,10 @@ I understand the premise behind normalization but I'm honestly a little fuzzy on
 the math.
 
 For a model that takes multiple types of input ("features"), if the values of
-those inputs have very different magnitudes, there is value in transforming
-them to have similar magnitudes. As an example, if one set of features falls
-within the range 1–100, and another set of features falls within the range
-10,000–1,000,000, you could take the second set and multiply by 0.001 so that
+those inputs have very different magnitudes, it is helpful to transform them to
+have similar magnitudes. As an example, if one set of features falls within the
+range 1-100, and another set of features falls within the range
+10,000-1,000,000, you could take the second set and multiply by 0.001 so that
 the ranges are closer together, and then reverse that transformation after
 optimizing the model.
 
@@ -139,15 +141,15 @@ performing worse than expected on newer data. A really unscientific way of
 thinking about this in my mind is that the model becomes "a little too close"
 to its training data, which hurts its ability to generalize.
 
-Regularization essentially forces the weight of parameters down so that they
+Regularization essentially forces the weights of parameters down so that they
 have less influence on the model's predictions.
 
-What feels strange to me about regularization is that it feels like making a
-model more complex in order to make it simpler. The simpler thing to do would
-be to reduce the number of parameters in the model. But I think the idea behind
-regularization is that you still want your parameters to _sort of_ affect the
-model's predictions, just _not too much_. It feels a bit to me like just
-fiddling around with data.
+What is strange to me about regularization is that it feels like making a model
+more complex in order to make it simpler. The simpler thing to do in my mind
+would be to reduce the number of parameters in the model. But I think the idea
+behind regularization is that you still want your parameters to _sort of_
+affect the model's predictions, just _not too much_. It feels a bit to me like
+just fiddling around with data.
 
 I probably need to go back and learn more about this!
 
