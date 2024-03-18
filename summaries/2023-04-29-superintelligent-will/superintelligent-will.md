@@ -99,7 +99,7 @@ think he is saying, "Orthogonality _could_ be true, and instrumental convergence
 _could_ be real; and we would be wise to act accordingly."
 
 This makes a lot more sense to me. From this angle, the burden of proof would
-not be on Bostrom to made an ironclad argument that these two theses would
+not be on Bostrom to make an ironclad argument that these two theses would
 necessarily apply to any and all AI systems. The burden of proof would be on
 those neglecting to take these ideas seriously to explain why we _can_ safely
 assume that AI without explicit instructions to do harm would be harmless.
@@ -108,6 +108,6 @@ Then again... perhaps even if such a thing could be proved, it wouldn't do us
 much good considering that [people _will_ explicitly give AI instructions to do
 harm][3].
 
-[1]: /summary/basic-ai-drives.html
+[1]: /summaries/basic-ai-drives.html
 [2]: /thoughts/explaining-ai-terms-the-feynman-way-pt1.html
-[3]: /summary/on-autogpt.html
+[3]: /summaries/on-autogpt.html
