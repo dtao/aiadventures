@@ -21,7 +21,7 @@
             </h2>
             <p>
                 <span class="date">{{ title_date }}</span>
-                <span class="source"><a href="{{ url }}">Source</a></span>
+                {% if url %}<span class="source"><a href="{{ url }}">Source</a></span>{% endif %}
             </p>
         </heading>
 

@@ -57,7 +57,7 @@ for p in glob.glob('summaries/*/*'):
             # The frontmatter library strips out the trailing newline character;
             # add it back in to ensure links are rendered properly.
             'content': render_markdown(summary.content + '\n'),
-            'url': summary['url'],
+            'url': summary.get('url'),
             'title_date': title_date,
             'date': summary['date'],
             'author': summary.get('author')
@@ -68,7 +68,7 @@ for p in glob.glob('summaries/*/*'):
         summaries.append({
             'slug': slug,
             'title': summary['summary'],
-            'url': summary['url'],
+            'url': summary.get('url'),
             'title_date': title_date,
             'date': summary['date'],
             'author': summary.get('author')
