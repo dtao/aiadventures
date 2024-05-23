@@ -79,7 +79,7 @@ agent's influence could be contained to an artificial world, particularly if
 there are human participants (which there would _need_ to be for it to be a
 valid test).
 
-It concludes my making quite a few predictions about how things will play out
+It concludes by making quite a few predictions about how things will play out
 from here, and I would describe them as "cynical and probably accurate" (but
 perhaps that just means _I_ am cynical), based on the potential power of agents,
 and the incentives that exist today and that will only become stronger to use
